@@ -1,0 +1,67 @@
+<!--  * Created by Mustafa on 02/23/2021 *  -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../../../scripts/buildfire.js"></script>
+  <style>
+    
+    body {
+      padding: 15px;
+    }
+
+    .whyBox .italicText {
+      font-style: italic;
+      margin-top: 5px;
+    }
+
+    .descriptionInfoBox {
+      padding: 15px 0;
+      border-bottom: 1px solid #000;
+      border-top: 1px solid #000;
+      margin: 15px 0;
+    }
+
+    .descriptionInfoBox .boldLabel {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    /* Write your styles down and please don't touch styles above so we can keep consistency. */
+    
+  </style>
+
+  <script>
+    // { Write your code here... }
+  </script>
+
+</head>
+<body>
+  <div class="whyBox">
+    This plugin and this setup is responsible for showing clear steps how to reproduce core bugs. The goal of this plugin is for core team to have enough details and exact code steps on how to reproduce the issue. Developer who reported core bug is now responsible to use this template, fill all placeholders "{ }" carefully with full details and create minimal but yet enough explainable code of reproducing issue. After you fill all placeholders "{ }" fields with information and code, you can zip this file and attach it to Jira ticket of the core issue. After that, consult with your Team Lead and get his approval. Team Lead will pass this to the Core team and prioritize it along with PM.
+
+    <div class="italicText">Please, don't touch structure of this plugin since we want every plugin to look same and to keep consistency.</div>
+  </div>
+  <div class="descriptionInfoBox">
+    <div>
+      <span class="boldLabel">Ticket Title:</span>
+      <span>{ Write here... }</span>
+    </div>
+    <div>
+      <span class="boldLabel">Ticket Link:</span>
+      <span><a href="#">{ Write here and leave a link in href attribute... }</a></span>
+    </div>
+    <div>
+      <span class="boldLabel">Ticket Reported By:</span>
+      <span>{ Write here... }</span>
+    </div>
+    <div>
+      <span class="boldLabel">Ticket Description:</span>
+      <span>{ Write here... }</span>
+    </div>
+  </div>
+  <div class="reproduceUiBox">
+    { Write your code here... }
+  </div>
+</body>
+</html>

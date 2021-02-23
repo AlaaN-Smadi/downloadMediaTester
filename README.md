@@ -1,1 +1,1 @@
-# buildfireCoreBugReportTemplate
+#### BuildFire Core Bug Report Template 
